@@ -1,0 +1,8 @@
+*.o
+*.out
+*.csv
+*.png
+*.log
+venv/
+sim
+__pycache__/
