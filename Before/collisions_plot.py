@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 충돌 로그 데이터 불러오기
-df = pd.read_csv("/home/woojin/Desktop/project/qos/result.csv")
+df = pd.read_csv("/home/woojin/Desktop/project/qos/Before/result.csv")
 
 # collision == 1 인 로그만 필터링
 collisions = df[df["collision"] == 1]
@@ -24,5 +24,5 @@ plt.ylabel("Collision Count")
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
-plt.savefig("/home/woojin/Desktop/project/plot/collisions_plot.png")
+plt.savefig("/home/woojin/Desktop/project/qos/plot/collisions_plot.png")
 
